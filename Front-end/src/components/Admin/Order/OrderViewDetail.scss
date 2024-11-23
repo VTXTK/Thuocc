@@ -1,0 +1,67 @@
+.dateOrder {
+
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: #020b27
+}
+
+.stateOrder {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1677ff;
+
+
+}
+
+.name {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+
+}
+
+.priceAdmin {
+    color: #1677ff;
+    font-size: .75rem;
+    font-size: 20px;
+    font-weight: 750;
+    margin-bottom: 20px;
+}
+
+.product {
+    color: #657384;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.margin_top {
+    margin-top: 15px;
+}
+
+.order-product-empty {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.billing-information {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    margin-right: 10px;
+}

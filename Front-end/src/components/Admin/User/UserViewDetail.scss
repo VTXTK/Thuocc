@@ -1,0 +1,131 @@
+.total-history {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    background: var(--neutral-white, #FFF);
+    /* Soft Shadow */
+    box-shadow: 0px 4px 30px 0px rgba(46, 45, 116, 0.05);
+    margin: 0 auto;
+    margin-bottom: 3%;
+
+    .margin-Left {
+        margin-left: 15%;
+
+        .title-total {
+            align-self: stretch;
+            color: #777980;
+            /* Text L/Medium */
+            font-family: Public Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.08px;
+        }
+
+        .content-total {
+            color: #1D1F2C;
+            /* Display M/Semibold */
+            font-family: Public Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+            /* 133.333% */
+            letter-spacing: 0.24px;
+        }
+    }
+}
+
+.back-title {
+    display: flex;
+    padding: 18px 24px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-bottom: 1px solid var(--neutral-gray-gray-50, #F0F1F3);
+    background: var(--neutral-white, #FFF);
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+
+    .title {
+        color: #1D1F2C;
+        /* Display S/Semibold */
+        font-family: Public Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 150% */
+        letter-spacing: 0.2px;
+    }
+}
+
+.item {
+    display: flex;
+    padding: 18px 22px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-bottom: 1px solid var(--neutral-gray-gray-50, #F0F1F3);
+    background: var(--neutral-gray-gray-25, #F9F9FC);
+    color: var(--neutral-black-black-500, #1D1F2C);
+    /* Text M/Medium */
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.07px;
+}
+
+.back-content {
+
+    padding: 18px 22px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-bottom: 1px solid var(--neutral-gray-gray-50, #F0F1F3);
+    background: var(--neutral-white, #FFF);
+
+    .mdh {
+        color: #1677ff;
+        ;
+        /* Text M/Semibold */
+        font-family: Public Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 142.857% */
+        letter-spacing: 0.07px;
+        margin-top: 15%;
+    }
+
+    .text {
+        /* Text S/Regular */
+        font-family: Public Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 150% */
+        letter-spacing: 0.06px;
+        margin-top: 15%;
+
+        &.drug-name {
+            color: var(--neutral-black-black-500, #1D1F2C);
+            margin-top: 0%;
+        }
+
+        &.product {
+            color: var(--neutral-gray-gray-500, #667085);
+        }
+    }
+}
